@@ -3,36 +3,7 @@ site_description: 'A simple ML pipeline'
 site_author: 'Gemini'
 
 theme:
-  name: material
-  custom_dir: docs/overrides
-  logo: 'https://picsum.photos/200'
-  favicon: 'https://picsum.photos/200'
-  palette:
-    - scheme: default # Light mode
-      primary: indigo
-      accent: blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate # Dark mode
-      primary: indigo
-      accent: blue
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.annotate
-    - content.tabs.link
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
-
-extra_css:
-  - assets/custom.css
+  name: shadcn
 
 plugins:
   - search
@@ -58,9 +29,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
-
-extra_javascript:
-  - https://unpkg.com/mermaid@latest/dist/mermaid.min.js
 
 nav:
   - Home: index.md
