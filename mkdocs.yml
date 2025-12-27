@@ -4,6 +4,7 @@ site_author: 'Gemini'
 
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: 'https://picsum.photos/200'
   favicon: 'https://picsum.photos/200'
   palette:
@@ -14,8 +15,8 @@ theme:
         icon: material/brightness-auto
         name: Switch to light mode
     - scheme: default
-      primary: 'indigo'
-      accent: 'indigo'
+      primary: 'custom'
+      accent: 'custom'
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -29,6 +30,9 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+
+extra_css:
+  - assets/custom.css
 
 plugins:
   - search
@@ -45,9 +49,10 @@ markdown_extensions:
   - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      generator: !!python/name:material.extensions.emoji.to_svg_path
   - pymdownx.tabbed:
       alternate_style: true
+  - admonition
 
 nav:
   - Home: index.md

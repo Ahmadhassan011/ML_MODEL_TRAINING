@@ -1,6 +1,9 @@
-# Welcome to the Simple ML Pipeline
-
-This project provides a basic, end-to-end machine learning pipeline that demonstrates a simple linear regression model. The pipeline is built with Python and utilizes PyTorch for the model creation and training.
+<div class="hero">
+  <h1>Simple ML Pipeline</h1>
+  <p>A basic, end-to-end machine learning pipeline built with Python and PyTorch.</p>
+  <a href="architecture.html" class="md-button md-button--primary">Get Started</a>
+  <a href="https://github.com/your-username/your-repository" class="md-button">View on GitHub</a>
+</div>
 
 ## Features
 
@@ -23,19 +26,3 @@ This project provides a basic, end-to-end machine learning pipeline that demonst
 === "Prediction"
 
     The trained model can be used to make predictions on new data points.
-
-## Get Started
-
-To get started with the project, clone the repository and install the dependencies:
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-pip install -r requirements.txt
-```
-
-Then, run the pipeline using the command-line interface:
-
-```bash
-python -m cli --n_samples 1000 --num_epochs 500
-```
