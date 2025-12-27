@@ -547,9 +547,9 @@
   </div>
   <div class="typography w-full flex-1 *:data-[slot=alert]:first:mt-0">
     <div class="hero">
-  <img src="https://picsum.photos/seed/ml_pipeline/100" alt="ML Pipeline Logo" width="100" height="100" style="border-radius: 50%; margin-bottom: 1rem;">
-  <h1>Simple ML Pipeline</h1>
-  <p>An <span class="highlight-text">end-to-end machine learning pipeline</span> built with Python and PyTorch, designed for simplicity and clarity.</p>
+  <img src="https://picsum.photos/seed/data_index/100" alt="Data Indexing Logo" width="100" height="100" style="border-radius: 50%; margin-bottom: 1rem;">
+  <h1>Universal Data Indexing & Retrieval</h1>
+  <p>An <span class="highlight-text">intelligent system for managing, indexing, and retrieving diverse data sources</span>, designed for building robust knowledge bases and RAG applications.</p>
   <div class="hero-buttons">
     <a href="architecture.html" class="md-button md-button--primary md-button--large">🚀 Get Started</a>
     <a href="https://github.com/your-username/your-repository" class="md-button md-button--large">GitHub Repository</a>
@@ -557,48 +557,72 @@
 </div>
 
 <section class="md-typeset homepage-section">
-  <h2 align="center">Core Features at a Glance</h2>
+  <h2 align="center">Core Capabilities</h2>
   <div class="grid cards" markdown>
     <div class="grid__item">
       <div class="card">
-        <i class="md-icon material-icons">data_object</i>
-        <h3 class="card-title">Data Generation</h3>
-        <p class="card-description">Quickly generate synthetic data for linear regression tasks, perfect for rapid prototyping and testing.</p>
+        <i class="md-icon material-icons">folder_open</i>
+        <h3 class="card-title">File & Directory Indexing</h3>
+        <p class="card-description">Effortlessly index individual files or entire directories, extracting text content and metadata.</p>
       </div>
     </div>
     <div class="grid__item">
       <div class="card">
-        <i class="md-icon material-icons">transform</i>
-        <h3 class="card-title">Intelligent Preprocessing</h3>
-        <p class="card-description">Automated data splitting into training and testing sets, ensuring robust model evaluation.</p>
+        <i class="md-icon material-icons">code</i>
+        <h3 class="card-title">Code Repository Analysis</h3>
+        <p class="card-description">Ingest and analyze codebases to build intelligent repositories for code understanding and search.</p>
       </div>
     </div>
     <div class="grid__item">
       <div class="card">
-        <i class="md-icon material-icons">model_training</i>
-        <h3 class="card-title">PyTorch Model Training</h3>
-        <p class="card-description">Train a simple yet effective linear regression model using the power and flexibility of PyTorch.</p>
+        <i class="md-icon material-icons">article</i>
+        <h3 class="card-title">Document Loading</h3>
+        <p class="card-description">Support for various document types (PDFs, text, HTML) through `langchain_community.document_loaders`.</p>
       </div>
     </div>
     <div class="grid__item">
       <div class="card">
-        <i class="md-icon material-icons">assessment</i>
-        <h3 class="card-title">Comprehensive Evaluation</h3>
-        <p class="card-description">Thorough evaluation of model performance on unseen test data to gauge accuracy and generalization.</p>
+        <i class="md-icon material-icons">search</i>
+        <h3 class="card-title">Advanced Retrieval</h3>
+        <p class="card-description">Integrate with powerful search engines like Elasticsearch for efficient semantic search and RAG.</p>
       </div>
     </div>
     <div class="grid__item">
       <div class="card">
-        <i class="md-icon material-icons">precision_manufacturing</i>
-        <h3 class="card-title">Seamless Prediction</h3>
-        <p class="card-description">Utilize the trained model for making accurate predictions on new data points with ease.</p>
+        <i class="md-icon material-icons">manage_history</i>
+        <h3 class="card-title">Metadata Management</h3>
+        <p class="card-description">Extract, store, and leverage rich metadata for enhanced filtering and contextual understanding.</p>
       </div>
     </div>
     <div class="grid__item">
       <div class="card">
-        <i class="md-icon material-icons">settings_ethernet</i>
-        <h3 class="card-title">CLI Integration</h3>
-        <p class="card-description">Execute the entire pipeline with customizable parameters directly from your command line.</p>
+        <i class="md-icon material-icons">api</i>
+        <h3 class="card-title">Flexible Integrations</h3>
+        <p class="card-description">Designed for seamless integration with LLMs and other external systems for diverse applications.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="md-typeset homepage-section">
+  <h2 align="center">Why This Project?</h2>
+  <div class="grid cards" markdown>
+    <div class="grid__item">
+      <div class="card">
+        <h3 class="card-title">Build Smarter RAG Systems</h3>
+        <p class="card-description">Provide your Language Models with accurate, up-to-date, and context-rich information.</p>
+      </div>
+    </div>
+    <div class="grid__item">
+      <div class="card">
+        <h3 class="card-title">Centralize Knowledge</h3>
+        <p class="card-description">Create a unified, searchable repository from disparate data sources across your organization.</p>
+      </div>
+    </div>
+    <div class="grid__item">
+      <div class="card">
+        <h3 class="card-title">Accelerate Development</h3>
+        <p class="card-description">Spend less time on data ingestion and more time on building innovative AI applications.</p>
       </div>
     </div>
   </div>
@@ -611,7 +635,7 @@
       <div class="card">
         <i class="md-icon material-icons">cloud_download</i>
         <h3 class="card-title">Clone the Repository</h3>
-        <p class="card-description">Get the code by cloning the GitHub repository to your local machine.</p>
+        <p class="card-description">Begin by getting the project code from its GitHub repository.</p>
         <pre><code class="language-bash">git clone https://github.com/your-username/your-repository.git
 cd your-repository</code></pre>
       </div>
@@ -620,16 +644,16 @@ cd your-repository</code></pre>
       <div class="card">
         <i class="md-icon material-icons">build</i>
         <h3 class="card-title">Install Dependencies</h3>
-        <p class="card-description">Install all necessary Python packages using pip from the requirements file.</p>
+        <p class="card-description">Set up your environment by installing the necessary Python packages (e.g., `langchain`, `elasticsearch`).</p>
         <pre><code class="language-bash">pip install -r requirements.txt</code></pre>
       </div>
     </div>
     <div class="grid__item">
       <div class="card">
         <i class="md-icon material-icons">play_arrow</i>
-        <h3 class="card-title">Run the Pipeline</h3>
-        <p class="card-description">Execute the ML pipeline directly from your terminal with custom parameters.</p>
-        <pre><code class="language-bash">python -m cli --n_samples 1000 --num_epochs 500</code></pre>
+        <h3 class="card-title">Start Indexing</h3>
+        <p class="card-description">Utilize the provided CLI or API to start indexing your data sources.</p>
+        <pre><code class="language-bash">python -m cli index --path ./my_data</code></pre>
       </div>
     </div>
   </div>
