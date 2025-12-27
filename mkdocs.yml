@@ -16,11 +16,7 @@ plugins:
   - mermaid2
 
 markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
   - attr_list
   - md_in_html
   - pymdownx.emoji:
@@ -31,7 +27,8 @@ markdown_extensions:
       alternate_style: true
   - admonition
 
-
+extra_javascript:
+  - assets/extra.js
 
 nav:
   - Home: index.md
