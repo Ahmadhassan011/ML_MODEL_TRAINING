@@ -1,8 +1,35 @@
 site_name: My Docs
+site_description: 'A simple ML pipeline'
+site_author: 'Gemini'
+
 theme:
   name: material
+  logo: 'https://picsum.photos/200'
+  favicon: 'https://picsum.photos/200'
   palette:
-    scheme: slate
+    - scheme: slate
+      primary: 'indigo'
+      accent: 'indigo'
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - scheme: default
+      primary: 'indigo'
+      accent: 'indigo'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
 plugins:
   - search
   - mkdocstrings:
@@ -11,6 +38,7 @@ plugins:
           options:
             show_root_heading: yes
             show_source: yes
+
 markdown_extensions:
   - pymdownx.superfences
   - attr_list
@@ -18,15 +46,19 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+
 nav:
   - Home: index.md
   - Architecture: architecture.md
   - Data Flow: data-flow.md
-  - CLI: cli.md
-  - Data: data.md
-  - Evaluate: evaluate.md
-  - Main: main.md
-  - Model: model.md
-  - Predict: predict.md
-  - Preprocessing: preprocessing.md
-  - Training: training.md
+  - API:
+    - CLI: cli.md
+    - Data: data.md
+    - Evaluate: evaluate.md
+    - Main: main.md
+    - Model: model.md
+    - Predict: predict.md
+    - Preprocessing: preprocessing.md
+    - Training: training.md

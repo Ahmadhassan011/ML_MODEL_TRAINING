@@ -2,16 +2,40 @@
 
 This project provides a basic, end-to-end machine learning pipeline that demonstrates a simple linear regression model. The pipeline is built with Python and utilizes PyTorch for the model creation and training.
 
-## Project Overview
+## Features
 
-The primary goal of this project is to showcase a simple yet complete machine learning workflow, including:
+=== "Data Generation"
 
-- **Data Generation:** Synthetic data is generated for a linear regression task.
-- **Preprocessing:** The data is split into training and testing sets.
-- **Model Training:** A simple linear regression model is trained on the data.
-- **Evaluation:** The trained model is evaluated on the test set.
-- **Prediction:** The trained model can be used to make predictions on new data points.
-- **Command-Line Interface:** A CLI is provided to run the pipeline with different parameters.
-- **Documentation:** The project is documented using MkDocs, with automatic documentation generation from docstrings.
+    The pipeline generates synthetic data for a linear regression task. This allows for quick experimentation and testing without the need for external datasets.
 
-This project serves as a basic template that can be extended for more complex machine learning tasks.
+=== "Preprocessing"
+
+    The data is automatically split into training and testing sets, ensuring a proper evaluation of the model.
+
+=== "Model Training"
+
+    A simple linear regression model is trained on the data using PyTorch's `nn.Module`.
+
+=== "Evaluation"
+
+    The trained model is evaluated on the test set to assess its performance.
+
+=== "Prediction"
+
+    The trained model can be used to make predictions on new data points.
+
+## Get Started
+
+To get started with the project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+pip install -r requirements.txt
+```
+
+Then, run the pipeline using the command-line interface:
+
+```bash
+python -m cli --n_samples 1000 --num_epochs 500
+```
