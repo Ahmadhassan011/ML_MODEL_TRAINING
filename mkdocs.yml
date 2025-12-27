@@ -27,9 +27,6 @@ markdown_extensions:
       alternate_style: true
   - admonition
 
-extra_javascript:
-  - assets/extra.js
-
 nav:
   - Home: index.md
   - Architecture: architecture.md
