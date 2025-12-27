@@ -3,7 +3,7 @@
   <h1>Universal Data Indexing & Retrieval</h1>
   <p>An <span class="highlight-text">intelligent system for managing, indexing, and retrieving diverse data sources</span>, designed for building robust knowledge bases and RAG applications.</p>
   <div class="hero-buttons">
-    <a href="architecture.html" class="md-button md-button--primary md-button--large">🚀 Get Started</a>
+    <a href="#get-started" class="md-button md-button--primary md-button--large">🚀 Get Started</a>
     <a href="https://github.com/your-username/your-repository" class="md-button md-button--large">GitHub Repository</a>
   </div>
 </div>
@@ -80,7 +80,7 @@
   </div>
 </section>
 
-<section class="md-typeset homepage-section">
+<section class="md-typeset homepage-section" id="get-started">
   <h2 align="center">How to Get Started</h2>
   <div class="grid cards" markdown>
     <div class="grid__item">
