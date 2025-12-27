@@ -1,6 +1,8 @@
 site_name: My Docs
 theme:
   name: material
+  palette:
+    scheme: slate
 plugins:
   - search
   - mkdocstrings:
@@ -9,8 +11,17 @@ plugins:
           options:
             show_root_heading: yes
             show_source: yes
+markdown_extensions:
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav:
   - Home: index.md
+  - Architecture: architecture.md
+  - Data Flow: data-flow.md
   - CLI: cli.md
   - Data: data.md
   - Evaluate: evaluate.md

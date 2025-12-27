@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# Welcome to the Simple ML Pipeline
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This project provides a basic, end-to-end machine learning pipeline that demonstrates a simple linear regression model. The pipeline is built with Python and utilizes PyTorch for the model creation and training.
 
-## Commands
+## Project Overview
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The primary goal of this project is to showcase a simple yet complete machine learning workflow, including:
 
-## Project layout
+- **Data Generation:** Synthetic data is generated for a linear regression task.
+- **Preprocessing:** The data is split into training and testing sets.
+- **Model Training:** A simple linear regression model is trained on the data.
+- **Evaluation:** The trained model is evaluated on the test set.
+- **Prediction:** The trained model can be used to make predictions on new data points.
+- **Command-Line Interface:** A CLI is provided to run the pipeline with different parameters.
+- **Documentation:** The project is documented using MkDocs, with automatic documentation generation from docstrings.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This project serves as a basic template that can be extended for more complex machine learning tasks.
