@@ -1,0 +1,21 @@
+site_name: My Docs
+theme:
+  name: material
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_heading: yes
+            show_source: yes
+nav:
+  - Home: index.md
+  - CLI: cli.md
+  - Data: data.md
+  - Evaluate: evaluate.md
+  - Main: main.md
+  - Model: model.md
+  - Predict: predict.md
+  - Preprocessing: preprocessing.md
+  - Training: training.md
