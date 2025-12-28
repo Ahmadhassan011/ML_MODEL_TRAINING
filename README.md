@@ -1,5 +1,7 @@
 # Simple Regression ML Pipeline
 
+[![ci](https://github.com/Ahmadhassan011/ML_MODEL_TRAINING/actions/workflows/main.yml/badge.svg)](https://github.com/Ahmadhassan011/ML_MODEL_TRAINING/actions/workflows/main.yml)
+
 This project implements a basic machine learning pipeline for simple linear regression. It includes modules for synthetic data generation, data preprocessing, model definition, training, evaluation, and a command-line interface.
 
 ## Installation
